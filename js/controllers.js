@@ -48,7 +48,7 @@ $scope.galleries = [
 			'value':'-when'
 			},
 		{
-			'label':'Najwyżej ocenione*'
+			'label':'Najwyżej ocenione*',
 			'value':'-ocena'
 			}
 		];

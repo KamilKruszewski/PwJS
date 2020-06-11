@@ -4,6 +4,7 @@ portfolioApp.controller('GalleryListCtrl',function($scope) {
 $scope.galleries = [
 		{ "title":"Parasite",
 			"when":"2020",
+		 	"ocena":"8,6",
 			"thumbnailUrl":"pict/ang/kol1.jpg"
 		},
 		{  "title":"Kształ wody",
@@ -40,6 +41,10 @@ $scope.galleries = [
 		{
 			'label':'Najnowsze',
 			'value':'-when'
+			},
+		{
+			'label':'Najwyżej ocenione'
+			'value':'-ocena'
 			}
 		];
 

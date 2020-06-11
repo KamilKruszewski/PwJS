@@ -46,11 +46,7 @@ $scope.galleries = [
 		{
 			'label':'Najnowsze',
 			'value':'-when'
-		},
-		{
-			'label':'Najwyżej ocenione*',
-			'value':'-ocena'
-			}
+		}
 		];
 
 		$scope.orderProp = 'when';
